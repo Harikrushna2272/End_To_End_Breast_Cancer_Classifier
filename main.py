@@ -1,6 +1,3 @@
-def main():
-    print("Hello from project-structure!")
+from src.cnnClassifier import logger
 
-
-if __name__ == "__main__":
-    main()
+logger.info("Logging has been set up successfully.")
